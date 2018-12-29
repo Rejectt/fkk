@@ -719,7 +719,7 @@ client.on("guildMemberAdd", member => {
 - Hello ${member} :hearts: 
        -  انت العضو رقم ${member.guild.memberCount} :man_dancing: 
               - You Are in a Big Community :dove: 
-                     -  Venom Rewards :blue_heart: **`) 
+                     -  . :blue_heart: **`) 
 }).catch(console.error)
 });
 
