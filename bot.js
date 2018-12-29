@@ -580,9 +580,9 @@ reaction3.on("collect", r => {
     })
 }
 });
-const devs = ["378909031672184844"]
+const devs = ["528574292535934976"]
 
-const adminprefix = "v!";
+const adminprefix = "m!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
